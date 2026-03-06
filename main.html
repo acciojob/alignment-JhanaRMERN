@@ -7,59 +7,61 @@
 </head>
 
 <body>
-
     <h1 style="text-align:center">HTML Assignment #3</h1>
 
-    <!-- TABLE 1 -->
-
     <table id="table-1" class="middle">
-
         <tr>
             <td id="t11">left</td>
             <td id="t12" class="center">center</td>
             <td id="t13" class="right">right</td>
         </tr>
-
         <tr>
-            <td class=>left</td>
+            <td>left</td>
             <td class="center">center</td>
             <td class="right">right</td>
         </tr>
-
         <tr>
             <td>left</td>
-            <td>center</td>
+            <td class="center">center</td>
             <td class="right">right</td>
         </tr>
-
     </table>
 
-
-    <!-- TABLE 2 -->
     <table id="table-2" class="middle">
         <tr>
             <td id="t21" colspan="6"></td>
         </tr>
+        <!--row2-->
         <tr>
             <td rowspan="4"></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
+            <td><!--2B--></td>
+            <td><!--2C--></td>
+            <td><!--2D--></td>
+            <td><!--2E--></td>
+            <td><!--2F--></td>
         </tr>
+        <!--row3-->
         <tr>
-            <td></td>
-            <td rowspan="2"></td>
-            <td rowspan="2"></td>
-            <td rowspan="2"></td>
-            <td></td>
+            <!-- covered -->
+            <td><!--3B--></td>
+            <td colspan="3" rowspan="2"><!--3C--></td> <!-- middle merge rows 3-4 -->
+            <!--<td>3D</td>-- merged--->
+             <!--<td>3E</td>-- merged--->
+            <td><!--3F--></td>
         </tr>
+        <!--row4-->
         <tr>
-            <td></td>
-            <td></td>
+            <!-- covered -->
+            <td><!--4B--></td>
+            <!-- colspan continues -->
+            <!-- colspan continues -->
+            <!-- colspan continues -->
+            <td><!--4F--></td>
         </tr>
+        <!--row5-->
         <tr>
+            <!-- covered -->
+            <td></td>
             <td></td>
             <td></td>
             <td></td>
@@ -70,30 +72,21 @@
         </tr>
     </table>
 
-    <!-- TABLE 3 -->
-
     <table id="table-3" class="middle">
-
         <tr class="green">
             <td colspan="3"></td>
         </tr>
-
         <tr>
             <td></td>
-
             <td id="t-image">
-                <img class="fit-picture"
-                    src="https://cdn.bloomsflora.com/uploads/product/bloomsflora/JUL2025/ClassicRedRoseVase-1752836371332.webp"
+                <img src="https://cdn.bloomsflora.com/uploads/product/bloomsflora/JUL2025/ClassicRedRoseVase-1752836371332.webp"
                     alt="Grapefruit slice atop a pile of other slices" />
             </td>
-
             <td></td>
         </tr>
-
         <tr class="blue">
             <td colspan="3"></td>
         </tr>
-
     </table>
 
 </body>

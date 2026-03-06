@@ -1,15 +1,15 @@
 table.middle td {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
+    border: 1px solid black !important;
     padding: 5px;
     height: 30px;
 }
 
-table.middle td {
-    border: 1px solid black;
-    padding: 5px;
-    height: 30px;
+table.middle {
+    border: 1px solid black !important;
+    border-spacing: 1px;
+    border-collapse: separate;
+    margin: 30px auto;
+    width: 900px;
 }
 
 .center {
